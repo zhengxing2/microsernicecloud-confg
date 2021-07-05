@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active:
+      - dev
+
+---
+spring:
+  profiles: dev   #开发环境
+  application: 
+    name: microsernicecloud-config-atguigu-dev
+
+---
+spring:
+  profiles: test   #测试环境
+  application: 
+    name: microsernicecloud-config-atguigu-test
+
+#必须保存为UTF-8格式
